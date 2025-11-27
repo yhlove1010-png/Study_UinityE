@@ -1,11 +1,14 @@
+using System.Globalization;
 using UnityEngine;
 
 public class Study : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public string say = "";
+    public int var;
+
     void Start()
     {
-        Debug.Log("Hello World!");
+        Debug.Log(this.say);
 
     }
 
